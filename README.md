@@ -18,7 +18,7 @@ In order for the AAS to work, the station needs
 to be exposed to solar power. This leves the station, however, vulnerable to
 extreme weather and other potential dangers. The station can be secured into
 a hibernation mode that will protect all life inside the station from any
-dangers for at least 3 days -- bevore AAS break
+dangers for at least 3 days -- before AAS break
 down and life suffocates. Our simulation data showed that this is sufficient to
 guarantee a 99.98% chance of survival until the next mission arrives in 5 years.
 
@@ -34,10 +34,10 @@ can enter hibernation in case of incoming storms.
 
 ### Resources
 There are 8 weather data outposts located surrounding the station at approximately 120km distance.
-The stations's coordinates are `x=0, y=0`. The data from the weather stations
+The stations' coordinates are `x=0, y=0`. The data from the weather stations
 is collected and updates every second. You can query it at:
 
-https://masr-strom.herokuapp.com/data
+https://mars-strom.herokuapp.com/data
 
 All coordinates are expressed in km relative to the main station.
 
