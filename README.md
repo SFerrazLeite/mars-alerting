@@ -37,7 +37,7 @@ There are 8 weather data outposts located surrounding the station at approximate
 The stations' coordinates are `x=0, y=0`. The data from the weather stations
 is collected and updates every second. You can query it at:
 
-https://mars-storm.herokuapp.com/data
+[API](https://mars-storm.herokuapp.com/data)
 
 All coordinates are expressed in km relative to the main station.
 
