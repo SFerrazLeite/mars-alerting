@@ -9,7 +9,6 @@ async def index(request):
     }
 
 async def json_example(request):
-    async with request.app['http_client'].get('http://httpbin.org/get') as response:
+    async with request.app['http_client'].get('https://mars-storm.herokuapp.com/data') as response:
         something = await response.json()
-    return web.json_response({'message': something})
-
+    return web.json_response({'rawData': something})
