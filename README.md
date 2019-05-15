@@ -37,7 +37,7 @@ There are 8 weather data outposts located surrounding the station at approximate
 The stations' coordinates are `x=0, y=0`. The data from the weather stations
 is collected and updates every second. You can query it at:
 
-[API](https://mars-storm.herokuapp.com/data)
+https://mars-storm.herokuapp.com/data
 
 All coordinates are expressed in km relative to the main station.
 
@@ -65,7 +65,8 @@ focus on an alarming system that will push messages somehow. Or, you could
 rather work on a visualization of the station and the weather at the surrounding
 weather outposts. Maybe you have another great idea what to do with the data!
 
-You can work on this together as a group, or alone. It's up to you.
+You must work on this task as an individual, but you may collaborate with your peers.
+You may ask the instructor for advise at any point in time -- don't be shy.
 
 There is only _one_ hard rule: **If you don't have fun, you're doing
 it wrong**
