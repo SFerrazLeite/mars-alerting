@@ -1,12 +1,12 @@
 # Welcome to Mars
 Welcome crew member. You have been assigned to the software engineering team.
-There is no time to waste, Mars is a dangrous place and ressources are sparse.
-We need your exprtise -- **right now**!
+There is no time to waste, Mars is a dangerous place and resources are sparse.
+We need your expertise -- **right now**!
 
 ## Background
 Six months ago, the first mission to Mars successfully landed and built the
-base you just entered. A fleet of automous vehicles and building bots
-commenced their work immedately and built this station as well as
+base you just entered. A fleet of autonomous vehicles and building bots
+commenced their work immediately and built this station as well as
 extensive measurement, monitoring, and maintenance infrastructure.
 
 Atmospheric assistance systems (AAS) were deployed and operating for the last
@@ -15,10 +15,10 @@ you are still reading this message is proof that the systems are fully
 operational.
 
 In order for the AAS to work, the station needs
-to be exposed to solar power. This leves the station, however, vulnerable to
+to be exposed to solar power. This leaves the station, however, vulnerable to
 extreme weather and other potential dangers. The station can be secured into
 a hibernation mode that will protect all life inside the station from any
-dangers for at least 3 days -- before AAS break
+dangers for at least 10 days -- before AAS break
 down and life suffocates. Our simulation data showed that this is sufficient to
 guarantee a 99.98% chance of survival until the next mission arrives in 5 years.
 
@@ -43,19 +43,19 @@ All coordinates are expressed in km relative to the main station.
 
 ### Criteria for Success
 Set up a system that warns the crew of the station in case of an incoming
-storm. A warning should be issued when a strom reaches velocities above
+storm. A warning should be issued when a storm reaches velocities above
 50 km/h. Any signs of a storm stronger than 90 km/h is considered critical.
 
 Hibernation is costly and not free of danger. You should only issue warnings
 if the storm is potentially approaching the station. You should
-differ between dangrous situations (wind speed of more than 50 km/h)
+differ between dangerous situations (wind speed of more than 50 km/h)
 and critical situations (wind speed of more than 90 km/h). If possible, you
 should give an estimate of the expected time left before the storm hits the
 station.
 
 ### Technical Hints
-In the folders `node`, `python`, and `spring` you can find a skeleton of
-a working application set-up in JavaScript, Python 3, and Java respectiveley.
+In the folders `node`, `python`, and `java` you can find a skeleton of
+a working application set-up in JavaScript, Python 3, and Java respectively.
 You are free to use any language, framework or other resource that might help
 you achieve your target. If you want to use any of the skeletons provided,
 please follow the instructions you find in the folders.
