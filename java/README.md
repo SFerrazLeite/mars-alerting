@@ -5,7 +5,7 @@ Run ```./gradlew build``` on Linux like systems or ```gradlew.bat build``` on Wi
 Then, run ```java -jar build\libs\mars-alerting-1.0.0.jar``` to start your web server (on Linux systems, replace the
 "\\" with a "/").
 
-The `Endpoints.java` class contains the implementation of two e endpoints. One that makes use of thymeleaf to render
+The `Endpoints.java` class contains the implementation of two endpoints. One that makes use of thymeleaf to render
 an html page, and one that executes a remote call and responds with json.
 
 Open http://localhost:8080/index to see the rendered html page.
