@@ -6,6 +6,7 @@ python
 3. Activate venv:
 
  | Platform	| Shell	| Command to activate virtual environment |
+ | ---------|-------|-----------------------------------------|
  | Posix	| bash/zsh	| $ source <venv>/bin/activate |
  |          | fish	    | $ . <venv>/bin/activate.fish |
  |          | csh/tcsh	| $ source <venv>/bin/activate.csh |
