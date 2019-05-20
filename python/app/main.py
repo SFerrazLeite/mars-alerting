@@ -8,6 +8,7 @@ import aiohttp_jinja2
 
 from .views import index
 from .views import json_example
+from .views import alerting
 
 
 THIS_DIR = Path(__file__).parent
@@ -17,6 +18,7 @@ BASE_DIR = THIS_DIR.parent
 def setup_routes(app):
     app.router.add_get('/', index, name='index')
     app.router.add_get('/json', json_example)
+    app.router.add_get('/alerting', alerting)
 
 
 async def create_app():

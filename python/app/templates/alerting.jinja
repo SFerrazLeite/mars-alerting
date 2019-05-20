@@ -1,0 +1,22 @@
+{% extends 'base.jinja' %}
+
+{% block content %}
+<div class="container">
+  {% for station in stations %}
+  <div class="row">
+    <div class="col">
+        {% if station.isStormy %}
+        <div class="alert alert-danger" role="alert">
+            {{station.name}}
+            {{station.windVelocity}}
+        </div>
+        {% else %}
+        <div class="alert alert-success" role="alert">
+            {{station.name}}
+            {{station.windVelocity}}
+        </div>
+        {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+{% endblock %}
